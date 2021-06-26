@@ -1,0 +1,27 @@
+{
+  "name": "threejs-playground",
+  "version": "0.0.0",
+  "type": "module",
+  "author": {
+    "name": "madupuis.90"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
+    "@tsconfig/svelte": "^2.0.1",
+    "@types/three": "^0.129.1",
+    "lodash": "^4.17.21",
+    "svelte": "^3.37.0",
+    "svelte-check": "^2.1.0",
+    "svelte-preprocess": "^4.7.2",
+    "three": "^0.129.0",
+    "tslib": "^2.2.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.3.8"
+  }
+}
