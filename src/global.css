@@ -1,0 +1,12 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Set core body defaults */
+body {
+  height: 100vh;
+  margin: 0;
+}
